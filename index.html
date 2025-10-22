@@ -12,6 +12,33 @@
 </header>
 <main>
     <p>Je suis développeur web débutant.</p>
+    <section id="projects">
+
+        <h2>Mes Projets</h2>
+        <ul>
+            <li>Projet 1: Site de recettes de cuisine</li>
+            <li>Projet 2: Application de gestion de tâches</li>
+            <li>Projet 3: Blog personnel</li>
+        </ul>
+        <article>
+            <h2>Contactez-moi</h2>
+            <form id="contact-form">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required />
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+            <form action="">
+                <input type="button" value="Retour en haut" onclick="window.scrollTo(0, 0)" />
+            </form>
+        </article>
+    </section>
 </main>
 <script src="js/script.js"></script>
 </body>
